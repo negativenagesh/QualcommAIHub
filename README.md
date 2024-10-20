@@ -109,9 +109,13 @@ for c in reversed(top5_classes):
 target_model = compile_job.get_target_model()
 target_model.download("mobilenet_v2.tflite")
 ```
-
 This will submit a compilation job, a profiling job, and an inference job printing the URLs 
 for all jobs
 . See the 
 documentation
  for more details.
+
+## ddrnet_slim23 -->
+
+<img width="480" alt="{7751734B-DFB3-4107-8AFA-D35B0FEC55EE}" src="https://github.com/user-attachments/assets/366144b1-28d3-4dab-8e06-d952c47cec40">
+
